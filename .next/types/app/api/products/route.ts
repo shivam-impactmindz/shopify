@@ -1,4 +1,4 @@
-// File: D:\shopify_new\my-app\src\app\api\products\route.js
+// File: D:\shopify_new -17-2-25\shopify_new - 2-14-25\shopify_new\my-app\src\app\api\products\route.js
 import * as entry from '../../../../../src/app/api/products/route.js'
 import type { NextRequest } from 'next/server.js'
 

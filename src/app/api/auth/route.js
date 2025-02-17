@@ -9,6 +9,11 @@ export async function GET(req,res) {
     console.error("Shop parameter is missing");
     return NextResponse.json({ error: "Shop parameter is missing" }, { status: 400 });
   }
+   // Clear existing cookies
+   const cookieStore = cookies();
+   cookieStore.delete("shop");
+   cookieStore.delete("hmac");
+   
   try {
     // Convert Web API request into a Node.js-like request
     const authRoute = await shopify.auth.begin({

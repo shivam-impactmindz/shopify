@@ -1,4 +1,4 @@
-// File: D:\shopify_new\my-app\src\app\page.js
+// File: D:\shopify_new -17-2-25\shopify_new - 2-14-25\shopify_new\my-app\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,3 +1,4 @@
+// src\app\api\auth\callback\route.js
 import shopify from "@/app/lib/shopify";
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
