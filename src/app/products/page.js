@@ -25,10 +25,10 @@ export default function ProductsPage() {
       console.log("Shop from localStorage:", shop);
       console.log("HMAC from URL:", hmac);
 
-      // if (!shopFromURL || !hmac) {
-      //   router.replace(`/login?shop=${shopFromURL || ""}`);
-      //   return;
-      // }
+      if (!shopFromURL || !hmac) {
+        router.replace(`/login?shop=${shopFromURL || ""}`);
+        return;
+      }
 
       if (shop !== shopFromURL) {
         router.replace(`/login?shop=${shopFromURL}`);
