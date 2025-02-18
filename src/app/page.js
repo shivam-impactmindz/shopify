@@ -1,5 +1,4 @@
 // src\app\page.js
-
 "use client";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -34,6 +33,7 @@ export default function HomePage() {
 
 
 
+// import { shopifyApi, RequestedTokenType, Session } from "@shopify/shopify-api";
 
 
 // "use client"; // Mark this as a Client Component

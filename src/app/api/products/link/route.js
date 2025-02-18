@@ -27,6 +27,7 @@
 //   return NextResponse.json({ message: redirectUrl });
 // }
 
+// src\app\api\products\link\route.js
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
 

@@ -150,7 +150,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <h1 className="logo">
-          <Link href="/login">Next Shopify App</Link>
+          <Link href="/">Next Shopify App</Link>
         </h1>
         <nav>
           <ul className="nav-links">
